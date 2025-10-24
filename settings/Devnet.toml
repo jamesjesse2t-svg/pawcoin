@@ -1,0 +1,10 @@
+﻿# Devnet settings for Clarinet
+
+[network]
+name = "devnet"
+
+[accounts]
+# Default deployer account (local-only test mnemonic)
+deployer = { mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about", balance = "1000000000000000", account = 0 }
+wallet_1 = { mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about", balance = "1000000000000000", account = 1 }
+wallet_2 = { mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about", balance = "1000000000000000", account = 2 }
